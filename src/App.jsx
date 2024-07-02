@@ -1,4 +1,5 @@
 import './App.css'
+import { Navigation } from './components/Navigation'
 import { Taekwondo1 } from './components/Taekwondo1'
 import { Taekwondo2 } from './components/Taekwondo2'
 import { Taekwondo3 } from './components/Taekwondo3'
@@ -21,6 +22,7 @@ function App() {
         <Route path="/taekwondo5" element= {<Taekwondo5/>}/>
         <Route path="/taekwondo6" element= {<Taekwondo6/>}/>
       </Routes>
+      <Navigation/>
     </BrowserRouter>
     
     </>
