@@ -9,44 +9,44 @@ import { Taekwondo6 } from './Taekwondo6'
 
 export const Navigation = () => {
   return (
-    <div>
-        <Link to="/taekwondo1">
-        <figure>
+    <div className='container mt-4 father'>
+        <Link to="/taekwondo1" className='links'>
+        <figure className='image-size'>
             <Taekwondo1/>
             <figcaption>Taekwondo1</figcaption>
         </figure>
         </Link>
         
-        <Link to="/taekwondo2">
-        <figure>
+        <Link to="/taekwondo2" className='links'>
+        <figure className='image-size'>
             <Taekwondo2/>
             <figcaption>Taekwondo2</figcaption>
         </figure>
         </Link>
 
-        <Link to="/taekwondo3">
-        <figure>
+        <Link to="/taekwondo3" className='links'>
+        <figure className='image-size'>
             <Taekwondo3/>
             <figcaption>Taekwondo3</figcaption>
         </figure>
         </Link>
 
-        <Link to="/taekwondo4">
-        <figure>
+        <Link to="/taekwondo4" className='links'>
+        <figure className='image-size'>
             <Taekwondo4/>
             <figcaption>Taekwondo4</figcaption>
         </figure>
         </Link>
 
-        <Link to="/taekwondo5">
-        <figure>
+        <Link to="/taekwondo5" className='links'>
+        <figure className='image-size'>
             <Taekwondo5/>
             <figcaption>Taekwondo5</figcaption>
         </figure>
         </Link>
 
-        <Link to="/taekwondo6">
-        <figure>
+        <Link to="/taekwondo6" className='links'>
+        <figure className='image-size'>
             <Taekwondo6/>
             <figcaption>Taekwondo6</figcaption>
         </figure>

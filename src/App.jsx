@@ -13,14 +13,17 @@ function App() {
 
   return (
     <>
+    <div>
+      <h1 id="title" className='text-center my-3'>Proyecto galería</h1>
+    </div>
     <BrowserRouter>
       <Routes>
-      <Route path="/taekwondo1" element= {<Taekwondo1/>}/>
-        <Route path="/taekwondo2" element= {<Taekwondo2/>}/>
-        <Route path="/taekwondo3" element= {<Taekwondo3/>}/>
-        <Route path="/taekwondo4" element= {<Taekwondo4/>}/>
-        <Route path="/taekwondo5" element= {<Taekwondo5/>}/>
-        <Route path="/taekwondo6" element= {<Taekwondo6/>}/>
+        <Route path="/taekwondo1" element= {<Taekwondo1 className="image-size"/>}/>
+        <Route path="/taekwondo2" element= {<Taekwondo2 className="image-size"/>}/>
+        <Route path="/taekwondo3" element= {<Taekwondo3 className="image-size"/>}/>
+        <Route path="/taekwondo4" element= {<Taekwondo4 className="image-size"/>}/>
+        <Route path="/taekwondo5" element= {<Taekwondo5 className="image-size"/>}/>
+        <Route path="/taekwondo6" element= {<Taekwondo6 className="image-size"/>}/>
       </Routes>
       <Navigation/>
     </BrowserRouter>

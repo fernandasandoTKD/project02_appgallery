@@ -1,9 +1,14 @@
 import React from 'react'
 import tkd2 from '../assets/images/tkd2.jpg'
-export const Taekwondo2 = () => {
+import PropTypes from 'prop-types'
+
+export const Taekwondo2 = ({className}) => {
   return (
-    <div>
-        <img src={tkd2} alt="Imagen poomsae negro" />
+    <div className={`image-container ${className}`}>
+        <img src={tkd2} alt="Imagen poomsae negro" className='image' />
     </div>
   )
+}
+Taekwondo2.propTypes={
+    className: PropTypes.string
 }
